@@ -17,6 +17,10 @@ jobs:
           node-version: 18
           registry-url: https://registry.npmjs.org/
       - uses: pnpm/action-setup@v2.2.4
+      - name: 环境变量
+        run: export
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: 安装依赖
         run: pnpm install
       - name: 开始发布
