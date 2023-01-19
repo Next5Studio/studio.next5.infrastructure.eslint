@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-next5studio",
+  "version": "0.0.1",
+  "description": "ESLint config rules for next5 teams.",
+  "author": "卢凌峰<lulingfeng@next5.studio>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "react.js",
+    "react-ts.js",
+    "typescript.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "eslintconfig",
+    "config",
+    "next5studio",
+    "javascript",
+    "styleguide",
+    "react",
+    "vue",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  },
+  "dependencies": {
+    "eslint-config-next5studio-basic": "workspace:*",
+    "eslint-config-next5studio-react": "workspace:*",
+    "eslint-config-next5studio-typescript": "workspace:*"
+  }
+}

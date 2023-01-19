@@ -1,0 +1,28 @@
+{
+  "name": "studio.next5.infrastructure.eslint",
+  "version": "0.0.1",
+  "description": "Next5 studio's eslint config monorepo template.",
+  "private": true,
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "eslintconfig",
+    "config",
+    "next5studio",
+    "javascript",
+    "styleguide",
+    "react",
+    "vue",
+    "typescript"
+  ],
+  "author": "卢凌峰<lulingfeng@next5.studio>",
+  "license": "MIT",
+  "packageManager": "pnpm@7.1.0",
+  "scripts": {
+    "publish": "pnpm changeset publish",
+    "publish:pnpm": "pnpm publish -r"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0"
+  }
+}

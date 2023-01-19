@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-next5studio-react",
+  "version": "0.0.1",
+  "description": "React ESLint config for next5 teams.",
+  "author": "卢凌峰<lulingfeng@next5.studio>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "react": ">=16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "eslint-config-alloy": "^4.9.0",
+    "eslint-plugin-react": "^7.32.1"
+  }
+}
