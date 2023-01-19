@@ -7,8 +7,8 @@ on:
 
 # 执行任务
 jobs:
-  # Changesets更新包版本以及版本说明
-  version:
+  # 发布包
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,17 +16,11 @@ jobs:
         with:
           node-version: 18
       - uses: pnpm/action-setup@v2.2.4
-      - run: pnpm ver:commit
-
-  # 发布包
-  publish:
-    needs: version
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-node@v3.6.0
-        with:
-          node-version: 18
-      - run: pnpm ver:publish
+      - name: 安装依赖
+        run: pnpm install
+      - name: 版本变更
+        run: pnpm ver:commit
+      - name: 开始发布
+        run: pnpm ver:publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-
