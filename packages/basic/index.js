@@ -1,6 +1,11 @@
+/**
+ * Basic eslint rules.
+ */
 module.exports = {
-  extends: ['alloy'],
+  extends: ["alloy"],
   rules: {
-    // 添加自定义规则
+    // define your custom rules.
+    complexity: ["error", { max: 4 }],
+    "max-depth": ["error", 3]
   }
 }

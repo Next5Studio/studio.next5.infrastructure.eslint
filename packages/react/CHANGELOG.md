@@ -1,5 +1,11 @@
 # eslint-config-next5studio-react
 
+## 0.0.3
+
+### Patch Changes
+
+- Add some basic rules.
+
 ## 0.0.2
 
 ### Patch Changes
