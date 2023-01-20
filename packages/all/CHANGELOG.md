@@ -1,5 +1,11 @@
 # eslint-config-next5studio
 
+## 0.0.5
+
+### Patch Changes
+
+- Fix eslint rules babel error.
+
 ## 0.0.4
 
 ### Patch Changes
