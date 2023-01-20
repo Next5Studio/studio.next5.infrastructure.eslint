@@ -1,5 +1,11 @@
 # eslint-config-next5studio
 
+## 0.0.4
+
+### Patch Changes
+
+- Fix extends rules problem.
+
 ## 0.0.3
 
 ### Patch Changes

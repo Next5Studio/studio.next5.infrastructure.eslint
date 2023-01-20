@@ -1,6 +1,3 @@
 module.exports = {
-  extends: [
-    "template-basic",
-    "template-react"
-  ]
+  extends: ["next5studio-basic", "next5studio-react"]
 }

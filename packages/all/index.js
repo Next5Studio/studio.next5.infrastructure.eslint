@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    "template-basic"
-  ]
+  extends: ["next5studio-basic"]
 }

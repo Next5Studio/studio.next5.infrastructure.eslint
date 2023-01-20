@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    "template-typescript"
-  ]
+  extends: ["next5studio-typescript"]
 }
