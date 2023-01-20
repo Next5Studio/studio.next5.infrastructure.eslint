@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-next5studio-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript ESLint config for next5 teams.",
   "author": "卢凌峰<lulingfeng@next5.studio>",
   "license": "MIT",
